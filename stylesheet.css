@@ -1,0 +1,162 @@
+body {
+  background:#F5E85F;
+}
+
+#container{
+  width:700px;
+  height:175px;
+  margin: 0 auto;
+  text-align:center;
+  -webkit-user-select:none;
+}
+
+#title {
+  width:700px;
+  margin: 0 auto;
+  margin-top:30px;
+  margin-bottom:20px;
+  font-size:5em;
+  text-align:center;
+  font-family:Helvetica;
+  font-weight:bold;
+  color:red;
+}
+
+.button {
+  height:30px;
+  width:200px;
+  margin:auto;
+  margin-top:10px;
+  background-color:green;
+  color:#F5E85F;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;   
+  cursor:default;
+  font-family:Helvetica;
+  font-weight:bold;
+  border-radius:5px;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.button p {
+  padding-top:7px;
+}
+
+.display {
+  color:#F5E85F;
+  cursor:default;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;   
+}
+
+#greensOne {
+  height:0px;
+  width:0px;
+  border: 20px solid green;
+  border-top:80px solid transparent;
+  border-right:80px solid transparent;
+  border-left:80px solid transparent;
+  margin-bottom:-100px;
+  margin-left:100px;
+  z-index:0;
+  position:relative;
+  transform:rotate(15deg);
+  
+}
+#greensTwo {
+  height:0px;
+  width:0px;
+  border: 20px solid green;
+  border-top:80px solid transparent;
+  border-right:80px solid transparent;
+  border-left:80px solid transparent;
+  margin-bottom:-20px;
+  margin-left:100px;
+  z-index:0;
+  position:relative;
+  transform:rotate(15deg);
+  transform: scaleX(-1);
+}
+#tomato {
+  height:200px;
+  width:220px;
+  margin-left:60px;
+  margin-top:4px;
+  border-radius:100%;
+  background-color:#73D424;
+  box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.4);
+}
+#display {
+  width:130px;
+  height:20px;
+  margin:auto;
+  font-size:2em;
+  text-align:center;
+}
+#fruitNotVeggieOne {
+  width:0px;
+  height:0px;
+  opacity: 1;
+  z-index: -1;
+  float:left;
+}
+
+#greensThree {
+  height:0px;
+  width:0px;
+  border: 20px solid green;
+  border-top:80px solid transparent;
+  border-right:80px solid transparent;
+  border-left:80px solid transparent;
+  margin-bottom:-100px;
+  margin-left:-260px;
+  transform:rotate(-15deg);
+}
+#greensFour {
+  height:0px;
+  width:0px;
+  border: 20px solid green;
+  border-top:80px solid transparent;
+  border-right:80px solid transparent;
+  border-left:80px solid transparent;
+  margin-bottom:-20px;
+  margin-left:-260px;
+  transform:rotate(15deg);
+  transform: scaleX(-1);
+}
+#tomatoTwo {
+  height:200px;
+  width:220px;
+  margin-left:-280px;
+  margin-top:4px;
+  border-radius:100%;
+  background-color:#73D424;
+  box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.4);
+}
+#displayTwo {
+  width:130px;
+  height:20px;
+  margin:0 auto;
+  font-size:2em;
+  text-align:center;
+}
+
+#fruitNotVeggieTwo {
+  width:0px;
+  height:0px;
+  float:right;
+}
+
+#fruitBasket {
+  width:700px;
+  height:300px;
+  margin:0 auto;
+}
+
+.timeText {
+  font-size:1.4em;
+}
